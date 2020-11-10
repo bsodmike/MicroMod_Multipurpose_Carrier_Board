@@ -14308,7 +14308,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="G3/BUS3"/>
 <wire x1="208.28" y1="38.1" x2="210.82" y2="38.1" width="0.1524" layer="91"/>
-<label x="210.82" y="38.1" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="38.1" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FLASH_SHD" class="0">
@@ -14330,7 +14330,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="G2/BUS2"/>
 <wire x1="208.28" y1="40.64" x2="210.82" y2="40.64" width="0.1524" layer="91"/>
-<label x="210.82" y="40.64" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="40.64" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -14390,7 +14390,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="SPI_!CS1!/SDIO_DATA3"/>
 <wire x1="208.28" y1="99.06" x2="210.82" y2="99.06" width="0.1524" layer="91"/>
-<label x="210.82" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="99.06" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="6"/>
@@ -14471,7 +14471,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="RX2"/>
 <wire x1="208.28" y1="50.8" x2="210.82" y2="50.8" width="0.1524" layer="91"/>
-<label x="210.82" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="U0TXD" class="0">
@@ -14483,7 +14483,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="TX2"/>
 <wire x1="208.28" y1="53.34" x2="210.82" y2="53.34" width="0.1524" layer="91"/>
-<label x="210.82" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="DTR" class="0">
@@ -14827,7 +14827,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="SPI_SCK1/SDIO_CLK"/>
 <wire x1="208.28" y1="111.76" x2="210.82" y2="111.76" width="0.1524" layer="91"/>
-<label x="210.82" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="111.76" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="2"/>
@@ -14849,7 +14849,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="SPI_SDO1/SDIO_CMD"/>
 <wire x1="208.28" y1="109.22" x2="210.82" y2="109.22" width="0.1524" layer="91"/>
-<label x="210.82" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="109.22" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="3"/>
@@ -14873,7 +14873,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="SPI_SDI1/SDIO_DATA0"/>
 <wire x1="208.28" y1="106.68" x2="210.82" y2="106.68" width="0.1524" layer="91"/>
-<label x="210.82" y="106.68" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="106.68" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J15" gate="G$1" pin="4"/>
@@ -14885,7 +14885,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="G4/BUS4"/>
 <wire x1="208.28" y1="35.56" x2="210.82" y2="35.56" width="0.1524" layer="91"/>
-<label x="210.82" y="35.56" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="35.56" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="1"/>
@@ -14897,7 +14897,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="G5/BUS5"/>
 <wire x1="208.28" y1="33.02" x2="210.82" y2="33.02" width="0.1524" layer="91"/>
-<label x="210.82" y="33.02" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="33.02" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="2"/>
@@ -14909,7 +14909,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="G6/BUS6"/>
 <wire x1="208.28" y1="30.48" x2="210.82" y2="30.48" width="0.1524" layer="91"/>
-<label x="210.82" y="30.48" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="30.48" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="3"/>
@@ -14921,7 +14921,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="G7/BUS7"/>
 <wire x1="208.28" y1="27.94" x2="210.82" y2="27.94" width="0.1524" layer="91"/>
-<label x="210.82" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="27.94" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="4"/>
@@ -14933,7 +14933,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="G8"/>
 <wire x1="208.28" y1="25.4" x2="210.82" y2="25.4" width="0.1524" layer="91"/>
-<label x="210.82" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="25.4" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="5"/>
@@ -14945,7 +14945,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="G9/ADC_D-/CAM_HSYNC"/>
 <wire x1="208.28" y1="22.86" x2="210.82" y2="22.86" width="0.1524" layer="91"/>
-<label x="210.82" y="22.86" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="22.86" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="6"/>
@@ -14957,7 +14957,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="G10/ADC_D+/CAM_VSYNC"/>
 <wire x1="208.28" y1="20.32" x2="210.82" y2="20.32" width="0.1524" layer="91"/>
-<label x="210.82" y="20.32" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="20.32" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="7"/>
@@ -14969,7 +14969,7 @@ Control</text>
 <segment>
 <pinref part="J6" gate="J1" pin="G11"/>
 <wire x1="208.28" y1="17.78" x2="210.82" y2="17.78" width="0.1524" layer="91"/>
-<label x="210.82" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="210.82" y="17.78" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J16" gate="G$1" pin="8"/>
