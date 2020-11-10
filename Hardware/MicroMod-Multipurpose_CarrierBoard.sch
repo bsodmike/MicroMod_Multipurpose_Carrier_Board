@@ -12929,7 +12929,7 @@ STAND-OFF</description>
 <part name="BUZZER" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device="" value=""/>
 <part name="I2C_SDA" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device="" value=""/>
 <part name="I2C_SCL" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device="" value=""/>
-<part name="J18" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_NO_POP" value="SPI"/>
+<part name="J18" library="SparkFun-Connectors" deviceset="CONN_06" device="NO_SILK_NO_POP" value="DAC"/>
 <part name="GND38" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
