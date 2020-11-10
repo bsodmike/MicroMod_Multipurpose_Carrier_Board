@@ -12926,6 +12926,7 @@ STAND-OFF</description>
 <part name="J16" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_08" device="&quot;" package3d_urn="urn:adsk.eagle:package:38138/1" value="General GPIO"/>
 <part name="J17" library="SparkFun-Connectors" deviceset="I2C_STANDARD" device="_NO_SILK" value="I2C1"/>
 <part name="GND37" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="BUZZER" library="SparkFun-Jumpers" deviceset="JUMPER-COMBO_2_NC_TRACE" device="" value=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13500,6 +13501,10 @@ Control</text>
 </instance>
 <instance part="GND37" gate="1" x="99.06" y="5.08" smashed="yes">
 <attribute name="VALUE" x="99.06" y="4.826" size="1.778" layer="96" align="top-center"/>
+</instance>
+<instance part="BUZZER" gate="JP1" x="386.08" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="384.048" y="128.27" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="388.62" y="132.08" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 </instances>
 <busses>
@@ -14742,6 +14747,12 @@ Control</text>
 <wire x1="35.56" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
 <label x="33.02" y="78.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
+<segment>
+<pinref part="BUZZER" gate="JP1" pin="2"/>
+<wire x1="386.08" y1="139.7" x2="386.08" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="142.24" x2="388.62" y2="142.24" width="0.1524" layer="91"/>
+<label x="388.62" y="142.24" size="1.27" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="PWM1" class="0">
 <segment>
@@ -14789,13 +14800,6 @@ Control</text>
 <wire x1="81.28" y1="38.1" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
 <label x="78.74" y="38.1" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J12" gate="G$1" pin="5"/>
-</segment>
-</net>
-<net name="BUZZER" class="0">
-<segment>
-<pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="396.24" y1="121.92" x2="393.7" y2="121.92" width="0.1524" layer="91"/>
-<label x="393.7" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -14999,6 +15003,18 @@ Control</text>
 <pinref part="J17" gate="G$1" pin="3"/>
 <wire x1="101.6" y1="15.24" x2="96.52" y2="15.24" width="0.1524" layer="91"/>
 <label x="96.52" y="15.24" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="BUZZER" class="0">
+<segment>
+<pinref part="BUZZER" gate="JP1" pin="1"/>
+<wire x1="386.08" y1="129.54" x2="386.08" y2="127" width="0.1524" layer="91"/>
+<pinref part="R17" gate="G$1" pin="1"/>
+<wire x1="386.08" y1="127" x2="386.08" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="121.92" x2="396.24" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="386.08" y1="127" x2="388.62" y2="127" width="0.1524" layer="91"/>
+<junction x="386.08" y="127"/>
+<label x="388.62" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 </nets>
