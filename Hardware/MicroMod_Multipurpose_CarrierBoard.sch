@@ -8230,6 +8230,31 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.7" y="0" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center">&gt;Name</text>
 <text x="1.7" y="0" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="bottom-center">&gt;Value</text>
 </package>
+<package name="SOT886">
+<description>&lt;h3&gt;SOT886&lt;/h3&gt;
+&lt;p&gt;Package for "F" variant of PRTR5V0U2F&lt;/p&gt;</description>
+<wire x1="0.5" y1="-0.725" x2="-0.5" y2="-0.725" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="-0.725" x2="-0.5" y2="0.725" width="0.002540625" layer="51"/>
+<wire x1="-0.5" y1="0.725" x2="0.5" y2="0.725" width="0.002540625" layer="51"/>
+<wire x1="0.5" y1="0.725" x2="0.5" y2="-0.725" width="0.002540625" layer="51"/>
+<rectangle x1="-0.465" y1="-0.105" x2="-0.155" y2="0.105" layer="51"/>
+<rectangle x1="-0.465" y1="-0.605" x2="-0.155" y2="-0.395" layer="51"/>
+<rectangle x1="0.155" y1="-0.605" x2="0.465" y2="-0.395" layer="51" rot="R180"/>
+<rectangle x1="0.155" y1="-0.105" x2="0.465" y2="0.105" layer="51" rot="R180"/>
+<rectangle x1="0.155" y1="0.395" x2="0.465" y2="0.605" layer="51" rot="R180"/>
+<rectangle x1="-0.465" y1="0.395" x2="-0.105" y2="0.605" layer="51"/>
+<smd name="1" x="-0.405" y="0.5" dx="0.61" dy="0.25" layer="1"/>
+<smd name="2" x="-0.43" y="0" dx="0.56" dy="0.25" layer="1"/>
+<smd name="3" x="-0.43" y="-0.5" dx="0.56" dy="0.25" layer="1"/>
+<smd name="4" x="0.43" y="-0.5" dx="0.56" dy="0.25" layer="1" rot="R180"/>
+<smd name="5" x="0.43" y="0" dx="0.56" dy="0.25" layer="1" rot="R180"/>
+<smd name="6" x="0.43" y="0.5" dx="0.56" dy="0.25" layer="1" rot="R180"/>
+<circle x="-0.7" y="0.9" radius="0.15" width="0" layer="21"/>
+<text x="0" y="1.1" size="0.6096" layer="25" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-0.9" size="0.6096" layer="27" ratio="20" align="top-center">&gt;Value</text>
+<wire x1="-0.4572" y1="0.8382" x2="0.4572" y2="0.8382" width="0.1524" layer="21"/>
+<wire x1="-0.4572" y1="-0.8382" x2="0.4572" y2="-0.8382" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MCP73831">
@@ -8271,6 +8296,81 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="OUT" x="7.62" y="5.08" visible="pin" length="short" direction="pas" rot="R180"/>
 <pin name="EN" x="-10.16" y="0" visible="pin" length="short" direction="in"/>
 <pin name="NC" x="7.62" y="-5.08" visible="pin" length="short" direction="nc" rot="R180"/>
+</symbol>
+<symbol name="PRTR5V0U2">
+<pin name="1" x="-10.16" y="5.08" visible="pad" length="short"/>
+<pin name="2" x="-10.16" y="0" visible="pad" length="short"/>
+<pin name="3" x="-10.16" y="-5.08" visible="pad" length="short"/>
+<pin name="6" x="10.16" y="5.08" visible="pad" length="short" rot="R180"/>
+<pin name="5" x="10.16" y="0" visible="pad" length="short" rot="R180"/>
+<pin name="4" x="10.16" y="-5.08" visible="pad" length="short" rot="R180"/>
+<wire x1="-7.62" y1="5.08" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="0" x2="-5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="-3.048" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-3.048" y1="2.54" x2="-3.048" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="3.81" x2="-1.778" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-3.048" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="1.27" x2="-3.048" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="3.81" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="-1.778" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="2.54" x2="0" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-0.508" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.508" y1="0" x2="-0.508" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="1.27" x2="0.762" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="-0.508" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-0.508" y1="-1.27" x2="-0.508" y2="0" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="0.762" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="0.762" y1="0" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="7.62" y2="0" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-2.54" x2="-3.048" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="-3.048" y1="-2.54" x2="-3.048" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="-1.27" x2="-1.778" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-3.048" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-3.048" y1="-3.81" x2="-3.048" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="-1.778" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="-2.54" x2="0" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-1.27" x2="3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="2.54" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="-3.81" x2="2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="3.81" y2="-3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="2.54" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="3.81" width="0.254" layer="94"/>
+<wire x1="2.54" y1="3.81" x2="3.81" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="2.54" y2="2.54" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="3.81" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="3.81" y2="1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="2.54" x2="5.08" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="7.62" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-2.54" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-5.08" x2="7.62" y2="0" width="0.254" layer="94"/>
+<wire x1="7.62" y1="0" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.1524" layer="94"/>
+<circle x="-5.08" y="0" radius="0.254" width="0" layer="94"/>
+<circle x="0" y="2.54" radius="0.254" width="0" layer="94"/>
+<circle x="0" y="5.08" radius="0.254" width="0" layer="94"/>
+<circle x="5.08" y="0" radius="0.254" width="0" layer="94"/>
+<circle x="0" y="-2.54" radius="0.254" width="0" layer="94"/>
+<circle x="0" y="-5.08" radius="0.254" width="0" layer="94"/>
+<text x="-7.62" y="7.874" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="-7.874" size="1.778" layer="96" align="top-left">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -8361,6 +8461,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technology name="">
 <attribute name="PROD_ID" value="VREG-12457"/>
 <attribute name="VALUE" value="3.3V"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="PRTR5V0U2" prefix="D">
+<description>A small ESD protection device. Most commonly used on USB D+/D- signals to protect large, expensive, or especially sensitive USB enabled devices.</description>
+<gates>
+<gate name="D1" symbol="PRTR5V0U2" x="0" y="0"/>
+</gates>
+<devices>
+<device name="F" package="SOT886">
+<connects>
+<connect gate="D1" pin="1" pad="1"/>
+<connect gate="D1" pin="2" pad="2"/>
+<connect gate="D1" pin="3" pad="3"/>
+<connect gate="D1" pin="4" pad="4"/>
+<connect gate="D1" pin="5" pad="5"/>
+<connect gate="D1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="PROD_ID" value="DIO-14084"/>
 </technology>
 </technologies>
 </device>
@@ -13578,6 +13701,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="S4" library="SparkFun-Switches" deviceset="MOMENTARY-SWITCH-SPST" device="-SMD-5.2MM-TALL"/>
 <part name="S6" library="SparkFun-Switches" deviceset="JOYSTICK_MINI" device="" value="Joystick"/>
 <part name="GND43" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
+<part name="D8" library="SparkFun-IC-Power" deviceset="PRTR5V0U2" device="F"/>
+<part name="SUPPLY21" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
+<part name="GND1" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13595,17 +13721,16 @@ to allow &gt;2A current flows.</text>
 <text x="55.88" y="231.14" size="1.778" layer="97" font="vector" align="center">Close VE to enable processor
 control of 3.3V bus.</text>
 <wire x1="0" y1="220.98" x2="137.16" y2="220.98" width="0.2032" layer="97" style="longdash"/>
-<text x="256.54" y="271.78" size="2.54" layer="94" align="center">μSD</text>
+<text x="292.1" y="271.78" size="2.54" layer="94" align="center">μSD</text>
 <text x="193.294" y="271.526" size="2.54" layer="94" font="vector" align="center">USB</text>
-<text x="292.1" y="271.78" size="2.54" layer="94">TBD</text>
+<text x="327.66" y="271.78" size="2.54" layer="94">TBD</text>
 <wire x1="137.16" y1="220.98" x2="170.18" y2="220.98" width="0.2032" layer="97" style="longdash"/>
-<wire x1="170.18" y1="220.98" x2="215.9" y2="220.98" width="0.2032" layer="97" style="longdash"/>
-<wire x1="215.9" y1="220.98" x2="287.02" y2="220.98" width="0.2032" layer="97" style="longdash"/>
-<wire x1="287.02" y1="220.98" x2="431.8" y2="220.98" width="0.2032" layer="97" style="longdash"/>
+<wire x1="170.18" y1="220.98" x2="256.54" y2="220.98" width="0.2032" layer="97" style="longdash"/>
+<wire x1="256.54" y1="220.98" x2="287.02" y2="220.98" width="0.2032" layer="97" style="longdash"/>
+<wire x1="287.02" y1="220.98" x2="314.96" y2="220.98" width="0.2032" layer="97" style="longdash"/>
+<wire x1="314.96" y1="220.98" x2="431.8" y2="220.98" width="0.2032" layer="97" style="longdash"/>
 <wire x1="170.18" y1="279.4" x2="170.18" y2="220.98" width="0.2032" layer="97" style="longdash"/>
-<wire x1="215.9" y1="279.4" x2="215.9" y2="220.98" width="0.2032" layer="97" style="longdash"/>
-<wire x1="287.02" y1="279.4" x2="287.02" y2="220.98" width="0.2032" layer="97" style="longdash"/>
-<text x="292.1" y="269.24" size="1.778" layer="97">pending</text>
+<text x="327.66" y="269.24" size="1.778" layer="97">pending</text>
 <text x="66.04" y="223.52" size="1.778" layer="97" font="vector" align="center">https://export.farnell.com/diodes-inc/ap7361c-33fge-7/ldo-fixed-3-3v-1a-40-to-85deg/dp/3482979</text>
 <text x="292.1" y="213.36" size="1.778" layer="97" align="top-left">https://export.farnell.com/microchip/mcp73831-2aci-mc/batt-charger-li-ion-pol-0-5a-dfn/dp/2709764</text>
 <wire x1="287.02" y1="220.98" x2="287.02" y2="144.78" width="0.2" layer="97" style="longdash"/>
@@ -13660,6 +13785,9 @@ to being charged or held at standby.</text>
 <wire x1="132.08" y1="124.46" x2="132.08" y2="0" width="0.2032" layer="97" style="longdash"/>
 <wire x1="0" y1="124.46" x2="132.08" y2="124.46" width="0.2032" layer="97" style="longdash"/>
 <wire x1="335.28" y1="144.78" x2="335.28" y2="106.68" width="0.2032" layer="97" style="longdash"/>
+<wire x1="256.54" y1="279.4" x2="256.54" y2="220.98" width="0.2032" layer="97" style="longdash"/>
+<wire x1="312.42" y1="279.4" x2="314.96" y2="279.4" width="0.2032" layer="97" style="longdash"/>
+<wire x1="314.96" y1="279.4" x2="314.96" y2="220.98" width="0.2032" layer="97" style="longdash"/>
 </plain>
 <instances>
 <instance part="U2" gate="G$1" x="360.68" y="185.42" smashed="yes" rot="MR0">
@@ -13865,23 +13993,23 @@ to being charged or held at standby.</text>
 <instance part="SUPPLY5" gate="G$1" x="195.58" y="259.08" smashed="yes">
 <attribute name="VALUE" x="195.58" y="261.874" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="GND72" gate="1" x="241.3" y="228.6" smashed="yes">
-<attribute name="VALUE" x="241.3" y="228.346" size="1.778" layer="96" align="top-center"/>
+<instance part="GND72" gate="1" x="276.86" y="228.6" smashed="yes">
+<attribute name="VALUE" x="276.86" y="228.346" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C46" gate="G$1" x="266.7" y="241.3" smashed="yes">
-<attribute name="NAME" x="268.224" y="244.221" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="268.224" y="239.141" size="1.778" layer="96" font="vector"/>
+<instance part="C46" gate="G$1" x="302.26" y="241.3" smashed="yes">
+<attribute name="NAME" x="303.784" y="244.221" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="303.784" y="239.141" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND73" gate="1" x="266.7" y="233.68" smashed="yes">
-<attribute name="VALUE" x="266.7" y="233.426" size="1.778" layer="96" align="top-center"/>
+<instance part="GND73" gate="1" x="302.26" y="233.68" smashed="yes">
+<attribute name="VALUE" x="302.26" y="233.426" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="J11" gate="G$1" x="251.46" y="243.84" smashed="yes">
-<attribute name="NAME" x="246.38" y="257.048" size="1.778" layer="95"/>
-<attribute name="VALUE" x="246.38" y="228.6" size="1.778" layer="96"/>
+<instance part="J11" gate="G$1" x="287.02" y="243.84" smashed="yes">
+<attribute name="NAME" x="281.94" y="257.048" size="1.778" layer="95"/>
+<attribute name="VALUE" x="281.94" y="228.6" size="1.778" layer="96"/>
 </instance>
-<instance part="R15" gate="G$1" x="236.22" y="259.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="234.696" y="259.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="237.744" y="259.08" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R15" gate="G$1" x="271.78" y="259.08" smashed="yes" rot="R90">
+<attribute name="NAME" x="270.256" y="259.08" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="273.304" y="259.08" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
 <instance part="U3" gate="G$1" x="60.96" y="170.18" smashed="yes">
 <attribute name="NAME" x="43.18" y="198.882" size="1.778" layer="95"/>
@@ -14174,6 +14302,16 @@ to being charged or held at standby.</text>
 <attribute name="NAME" x="326.644" y="113.538" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="320.04" y="111.76" size="1.778" layer="96" font="vector"/>
 </instance>
+<instance part="D8" gate="D1" x="228.6" y="254" smashed="yes" rot="MR180">
+<attribute name="NAME" x="220.98" y="246.126" size="1.778" layer="95" rot="MR180"/>
+<attribute name="VALUE" x="220.98" y="261.874" size="1.778" layer="96" rot="MR180" align="top-left"/>
+</instance>
+<instance part="SUPPLY21" gate="G$1" x="241.3" y="264.16" smashed="yes">
+<attribute name="VALUE" x="241.3" y="266.954" size="1.778" layer="96" align="bottom-center"/>
+</instance>
+<instance part="GND1" gate="1" x="215.9" y="228.6" smashed="yes">
+<attribute name="VALUE" x="215.9" y="228.346" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -14277,18 +14415,18 @@ to being charged or held at standby.</text>
 </segment>
 <segment>
 <pinref part="GND72" gate="1" pin="GND"/>
-<wire x1="243.84" y1="236.22" x2="241.3" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="236.22" x2="241.3" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="233.68" x2="241.3" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="243.84" y1="233.68" x2="241.3" y2="233.68" width="0.1524" layer="91"/>
-<junction x="241.3" y="233.68"/>
+<wire x1="279.4" y1="236.22" x2="276.86" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="236.22" x2="276.86" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="233.68" x2="276.86" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="233.68" x2="276.86" y2="233.68" width="0.1524" layer="91"/>
+<junction x="276.86" y="233.68"/>
 <pinref part="J11" gate="G$1" pin="GND"/>
 <pinref part="J11" gate="G$1" pin="SHIELD"/>
 </segment>
 <segment>
 <pinref part="C46" gate="G$1" pin="2"/>
 <pinref part="GND73" gate="1" pin="GND"/>
-<wire x1="266.7" y1="236.22" x2="266.7" y2="238.76" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="236.22" x2="302.26" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
@@ -14433,6 +14571,12 @@ to being charged or held at standby.</text>
 <wire x1="106.68" y1="10.16" x2="104.14" y2="10.16" width="0.1524" layer="91"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 <wire x1="104.14" y1="10.16" x2="104.14" y2="7.62" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="D8" gate="D1" pin="2"/>
+<wire x1="218.44" y1="254" x2="215.9" y2="254" width="0.1524" layer="91"/>
+<pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="215.9" y1="254" x2="215.9" y2="231.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN" class="0">
@@ -14687,6 +14831,12 @@ to being charged or held at standby.</text>
 <wire x1="180.34" y1="187.96" x2="180.34" y2="200.66" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="V_USB"/>
 </segment>
+<segment>
+<pinref part="D8" gate="D1" pin="5"/>
+<wire x1="238.76" y1="254" x2="241.3" y2="254" width="0.1524" layer="91"/>
+<pinref part="SUPPLY21" gate="G$1" pin="V_USB"/>
+<wire x1="241.3" y1="254" x2="241.3" y2="264.16" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$1" class="0">
 <segment>
@@ -14752,8 +14902,8 @@ to being charged or held at standby.</text>
 </net>
 <net name="SD_DAT1" class="0">
 <segment>
-<wire x1="243.84" y1="246.38" x2="241.3" y2="246.38" width="0.1524" layer="91"/>
-<label x="241.3" y="246.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="279.4" y1="246.38" x2="276.86" y2="246.38" width="0.1524" layer="91"/>
+<label x="276.86" y="246.38" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J11" gate="G$1" pin="DAT1/NC"/>
 </segment>
 </net>
@@ -14771,13 +14921,13 @@ to being charged or held at standby.</text>
 </net>
 <net name="!SD_CS!" class="0">
 <segment>
-<wire x1="243.84" y1="251.46" x2="236.22" y2="251.46" width="0.1524" layer="91"/>
-<label x="233.68" y="251.46" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="279.4" y1="251.46" x2="271.78" y2="251.46" width="0.1524" layer="91"/>
+<label x="269.24" y="251.46" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J11" gate="G$1" pin="DAT3/!CS!"/>
 <pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="236.22" y1="251.46" x2="233.68" y2="251.46" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="254" x2="236.22" y2="251.46" width="0.1524" layer="91"/>
-<junction x="236.22" y="251.46"/>
+<wire x1="271.78" y1="251.46" x2="269.24" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="271.78" y1="254" x2="271.78" y2="251.46" width="0.1524" layer="91"/>
+<junction x="271.78" y="251.46"/>
 </segment>
 <segment>
 <pinref part="J6" gate="J1" pin="G1/BUS1"/>
@@ -14792,17 +14942,12 @@ to being charged or held at standby.</text>
 </net>
 <net name="SD_DAT2" class="0">
 <segment>
-<wire x1="243.84" y1="248.92" x2="241.3" y2="248.92" width="0.1524" layer="91"/>
-<label x="241.3" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="279.4" y1="248.92" x2="276.86" y2="248.92" width="0.1524" layer="91"/>
+<label x="276.86" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J11" gate="G$1" pin="DAT2/NC"/>
 </segment>
 </net>
 <net name="USB_D-" class="0">
-<segment>
-<pinref part="J1" gate="J1" pin="D-"/>
-<wire x1="193.04" y1="251.46" x2="195.58" y2="251.46" width="0.1524" layer="91"/>
-<label x="195.58" y="251.46" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="D-"/>
 <wire x1="200.66" y1="185.42" x2="190.5" y2="185.42" width="0.1524" layer="91"/>
@@ -14815,13 +14960,13 @@ to being charged or held at standby.</text>
 <label x="154.94" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J6" gate="J1" pin="USB_D-"/>
 </segment>
+<segment>
+<pinref part="D8" gate="D1" pin="6"/>
+<wire x1="238.76" y1="248.92" x2="243.84" y2="248.92" width="0.1524" layer="91"/>
+<label x="243.84" y="248.92" size="1.016" layer="95" xref="yes"/>
+</segment>
 </net>
 <net name="USB_D+" class="0">
-<segment>
-<pinref part="J1" gate="J1" pin="D+"/>
-<wire x1="193.04" y1="254" x2="195.58" y2="254" width="0.1524" layer="91"/>
-<label x="195.58" y="254" size="1.27" layer="95" xref="yes"/>
-</segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="D+"/>
 <wire x1="200.66" y1="187.96" x2="193.04" y2="187.96" width="0.1524" layer="91"/>
@@ -14833,6 +14978,11 @@ to being charged or held at standby.</text>
 <wire x1="157.48" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
 <label x="154.94" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J6" gate="J1" pin="USB_D+"/>
+</segment>
+<segment>
+<pinref part="D8" gate="D1" pin="4"/>
+<wire x1="238.76" y1="259.08" x2="243.84" y2="259.08" width="0.1524" layer="91"/>
+<label x="243.84" y="259.08" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$10" class="0">
@@ -14877,20 +15027,20 @@ to being charged or held at standby.</text>
 </net>
 <net name="3.3V_LP" class="0">
 <segment>
-<wire x1="241.3" y1="256.54" x2="241.3" y2="254" width="0.1524" layer="91"/>
-<wire x1="241.3" y1="254" x2="243.84" y2="254" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="256.54" x2="276.86" y2="254" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="254" x2="279.4" y2="254" width="0.1524" layer="91"/>
 <pinref part="J11" gate="G$1" pin="VCC"/>
-<label x="241.3" y="256.54" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="276.86" y="256.54" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C46" gate="G$1" pin="1"/>
-<wire x1="266.7" y1="246.38" x2="266.7" y2="248.92" width="0.1524" layer="91"/>
-<label x="266.7" y="248.92" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="302.26" y1="246.38" x2="302.26" y2="248.92" width="0.1524" layer="91"/>
+<label x="302.26" y="248.92" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="236.22" y1="264.16" x2="236.22" y2="266.7" width="0.1524" layer="91"/>
-<label x="236.22" y="266.7" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="271.78" y1="264.16" x2="271.78" y2="266.7" width="0.1524" layer="91"/>
+<label x="271.78" y="266.7" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <label x="350.52" y="76.2" size="1.27" layer="95" xref="yes"/>
@@ -15401,8 +15551,8 @@ to being charged or held at standby.</text>
 <label x="205.74" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="243.84" y1="241.3" x2="241.3" y2="241.3" width="0.1524" layer="91"/>
-<label x="241.3" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="279.4" y1="241.3" x2="276.86" y2="241.3" width="0.1524" layer="91"/>
+<label x="276.86" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J11" gate="G$1" pin="CLK/SCK"/>
 </segment>
 <segment>
@@ -15423,8 +15573,8 @@ to being charged or held at standby.</text>
 <label x="205.74" y="119.38" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="243.84" y1="238.76" x2="241.3" y2="238.76" width="0.1524" layer="91"/>
-<label x="241.3" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="279.4" y1="238.76" x2="276.86" y2="238.76" width="0.1524" layer="91"/>
+<label x="276.86" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J11" gate="G$1" pin="CMD/SDI"/>
 </segment>
 <segment>
@@ -15445,8 +15595,8 @@ to being charged or held at standby.</text>
 <label x="205.74" y="116.84" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<wire x1="243.84" y1="243.84" x2="241.3" y2="243.84" width="0.1524" layer="91"/>
-<label x="241.3" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="279.4" y1="243.84" x2="276.86" y2="243.84" width="0.1524" layer="91"/>
+<label x="276.86" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="J11" gate="G$1" pin="DAT0/SDO"/>
 </segment>
 <segment>
@@ -15743,6 +15893,24 @@ to being charged or held at standby.</text>
 <pinref part="J6" gate="J1" pin="G2/BUS2"/>
 <wire x1="203.2" y1="50.8" x2="205.74" y2="50.8" width="0.1524" layer="91"/>
 <label x="205.74" y="50.8" size="1.27" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="N$23" class="0">
+<segment>
+<pinref part="D8" gate="D1" pin="1"/>
+<wire x1="218.44" y1="248.92" x2="213.36" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="248.92" x2="213.36" y2="251.46" width="0.1524" layer="91"/>
+<pinref part="J1" gate="J1" pin="D-"/>
+<wire x1="213.36" y1="251.46" x2="193.04" y2="251.46" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$24" class="0">
+<segment>
+<pinref part="D8" gate="D1" pin="3"/>
+<wire x1="218.44" y1="259.08" x2="213.36" y2="259.08" width="0.1524" layer="91"/>
+<wire x1="213.36" y1="259.08" x2="213.36" y2="254" width="0.1524" layer="91"/>
+<pinref part="J1" gate="J1" pin="D+"/>
+<wire x1="213.36" y1="254" x2="193.04" y2="254" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
