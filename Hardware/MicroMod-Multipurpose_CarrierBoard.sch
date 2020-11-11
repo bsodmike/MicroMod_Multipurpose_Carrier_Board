@@ -14808,7 +14808,7 @@ to being charged or held at standby.</text>
 <wire x1="200.66" y1="185.42" x2="190.5" y2="185.42" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="185.42" x2="190.5" y2="190.5" width="0.1524" layer="91"/>
 <wire x1="190.5" y1="190.5" x2="175.26" y2="190.5" width="0.1524" layer="91"/>
-<label x="175.26" y="190.5" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="175.26" y="190.5" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="101.6" x2="154.94" y2="101.6" width="0.1524" layer="91"/>
@@ -14827,7 +14827,7 @@ to being charged or held at standby.</text>
 <wire x1="200.66" y1="187.96" x2="193.04" y2="187.96" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="187.96" x2="193.04" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="193.04" y1="193.04" x2="175.26" y2="193.04" width="0.1524" layer="91"/>
-<label x="175.26" y="193.04" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+<label x="175.26" y="193.04" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="157.48" y1="99.06" x2="154.94" y2="99.06" width="0.1524" layer="91"/>
@@ -14986,7 +14986,7 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="360.68" y1="132.08" x2="363.22" y2="132.08" width="0.1524" layer="91" style="longdash"/>
-<label x="363.22" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="363.22" y="132.08" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C11" gate="G$1" pin="1"/>
@@ -14998,31 +14998,31 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="J2" gate="G$1" pin="2"/>
 <wire x1="360.68" y1="129.54" x2="363.22" y2="129.54" width="0.1524" layer="91" style="longdash"/>
-<label x="363.22" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="363.22" y="129.54" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD0(RXD)"/>
 <wire x1="86.36" y1="172.72" x2="88.9" y2="172.72" width="0.1524" layer="91"/>
-<label x="88.9" y="172.72" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="88.9" y="172.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FTDI_CTS" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="5"/>
 <wire x1="360.68" y1="121.92" x2="363.22" y2="121.92" width="0.1524" layer="91" style="longdash"/>
-<label x="363.22" y="121.92" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="363.22" y="121.92" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="FTDI_TXO" class="0">
 <segment>
 <pinref part="J2" gate="G$1" pin="3"/>
 <wire x1="360.68" y1="127" x2="363.22" y2="127" width="0.1524" layer="91" style="longdash"/>
-<label x="363.22" y="127" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="363.22" y="127" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="PD1(TXD)"/>
 <wire x1="86.36" y1="170.18" x2="88.9" y2="170.18" width="0.1524" layer="91"/>
-<label x="88.9" y="170.18" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="88.9" y="170.18" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="PERIPHERAL_PWR_CTRL" class="0">
@@ -15050,7 +15050,7 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="U6" gate="G$1" pin="TXD"/>
 <wire x1="241.3" y1="185.42" x2="243.84" y2="185.42" width="0.1524" layer="91"/>
-<label x="243.84" y="185.42" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="243.84" y="185.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J6" gate="J1" pin="RX2"/>
@@ -15062,7 +15062,7 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="U6" gate="G$1" pin="RXD"/>
 <wire x1="241.3" y1="182.88" x2="243.84" y2="182.88" width="0.1524" layer="91"/>
-<label x="243.84" y="182.88" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="243.84" y="182.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J6" gate="J1" pin="TX2"/>
@@ -15074,14 +15074,14 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="U6" gate="G$1" pin="DTR"/>
 <wire x1="241.3" y1="190.5" x2="243.84" y2="190.5" width="0.1524" layer="91"/>
-<label x="243.84" y="190.5" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="243.84" y="190.5" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="RTS" class="0">
 <segment>
 <pinref part="U6" gate="G$1" pin="RTS"/>
 <wire x1="241.3" y1="180.34" x2="243.84" y2="180.34" width="0.1524" layer="91"/>
-<label x="243.84" y="180.34" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="243.84" y="180.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -15393,7 +15393,7 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PB5(SCK)"/>
 <wire x1="86.36" y1="137.16" x2="88.9" y2="137.16" width="0.1524" layer="91"/>
-<label x="88.9" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="88.9" y="137.16" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J6" gate="J1" pin="SPI_SCK1/SDIO_CLK"/>
@@ -15415,7 +15415,7 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PB3(MOSI/OC2)"/>
 <wire x1="86.36" y1="142.24" x2="88.9" y2="142.24" width="0.1524" layer="91"/>
-<label x="88.9" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="88.9" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J6" gate="J1" pin="SPI_SDO1/SDIO_CMD"/>
@@ -15437,7 +15437,7 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="PB4(MISO)"/>
 <wire x1="86.36" y1="139.7" x2="88.9" y2="139.7" width="0.1524" layer="91"/>
-<label x="88.9" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="88.9" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J6" gate="J1" pin="SPI_SDI1/SDIO_DATA0"/>
@@ -15459,7 +15459,7 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="J16" gate="G$1" pin="2"/>
 <wire x1="60.96" y1="60.96" x2="63.5" y2="60.96" width="0.1524" layer="91"/>
-<label x="63.5" y="60.96" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="63.5" y="60.96" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="G6" class="0">
@@ -15471,7 +15471,7 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="J16" gate="G$1" pin="3"/>
 <wire x1="60.96" y1="58.42" x2="63.5" y2="58.42" width="0.1524" layer="91"/>
-<label x="63.5" y="58.42" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="63.5" y="58.42" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="G7" class="0">
@@ -15483,7 +15483,7 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="J16" gate="G$1" pin="4"/>
 <wire x1="60.96" y1="55.88" x2="63.5" y2="55.88" width="0.1524" layer="91"/>
-<label x="63.5" y="55.88" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="63.5" y="55.88" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="G8" class="0">
@@ -15495,7 +15495,7 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="J16" gate="G$1" pin="5"/>
 <wire x1="60.96" y1="53.34" x2="63.5" y2="53.34" width="0.1524" layer="91"/>
-<label x="63.5" y="53.34" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="63.5" y="53.34" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="G9" class="0">
@@ -15507,7 +15507,7 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="J16" gate="G$1" pin="6"/>
 <wire x1="60.96" y1="50.8" x2="63.5" y2="50.8" width="0.1524" layer="91"/>
-<label x="63.5" y="50.8" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="63.5" y="50.8" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="G10" class="0">
@@ -15519,7 +15519,7 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="J16" gate="G$1" pin="7"/>
 <wire x1="60.96" y1="48.26" x2="63.5" y2="48.26" width="0.1524" layer="91"/>
-<label x="63.5" y="48.26" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="63.5" y="48.26" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="G11" class="0">
@@ -15531,7 +15531,7 @@ to being charged or held at standby.</text>
 <segment>
 <pinref part="J16" gate="G$1" pin="8"/>
 <wire x1="60.96" y1="45.72" x2="63.5" y2="45.72" width="0.1524" layer="91"/>
-<label x="63.5" y="45.72" size="1.27" layer="95" font="vector" xref="yes"/>
+<label x="63.5" y="45.72" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="I2C_SCL1" class="0">
