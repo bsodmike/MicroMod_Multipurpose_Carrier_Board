@@ -9,7 +9,7 @@ Repository Contents
 
 Documentation
 --------------
-* **[MicroMod Info Page](https://ww.sparkfun.com/micromod)** - MicroMod Information Page
+* **[MicroMod Info Page](https://www.sparkfun.com/micromod)** - MicroMod Information Page
 
 Version History
 ---------------
@@ -17,7 +17,7 @@ Version History
 
 References & Credit
 ---------------
-This work is based on and extends upon hardware and code from [Sparkfun Electronics (SFE)](https://ww.sparkfun.com), especially with respect to [MicroMod](https://ww.sparkfun.com/micromod).
+This work is based on and extends upon hardware and code from [Sparkfun Electronics (SFE)](https://www.sparkfun.com), especially with respect to [MicroMod](https://www.sparkfun.com/micromod).
 
 License Information
 -------------------
