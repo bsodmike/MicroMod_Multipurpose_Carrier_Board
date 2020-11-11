@@ -1,4 +1,4 @@
-# MicroMod Mulitpurpose Carrier Board
+# MicroMod Multipupose Carrier Board
 
 
 Repository Contents
