@@ -15,6 +15,10 @@ Version History
 ---------------
 * **[pending](xxx)** - Initial schematic by [Michael de Silva](https://desilva.io)
 
+References & Credit
+---------------
+This work is based on and extends upon hardware and code from [Sparkfun Electronics (SFE)](https://ww.sparkfun.com), especially with respect to [MicroMod](https://ww.sparkfun.com/micromod).
+
 License Information
 -------------------
 
