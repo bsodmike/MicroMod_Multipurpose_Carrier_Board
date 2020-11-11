@@ -13645,11 +13645,16 @@ Control</text>
 <wire x1="137.16" y1="144.78" x2="287.02" y2="144.78" width="0.2" layer="97" style="longdash"/>
 <wire x1="368.3" y1="106.68" x2="370.84" y2="106.68" width="0.2032" layer="97" style="longdash"/>
 <wire x1="370.84" y1="106.68" x2="370.84" y2="35.56" width="0.2032" layer="97" style="longdash"/>
-<text x="368.3" y="259.08" size="2.032" layer="94">Optional considerations:
+<text x="360.68" y="243.84" size="2.032" layer="94">Optional considerations:
 - Add 20/24bit DAC modules
+
 - Add quadrature encoder IC
+
 - Add thermocouple IC/thermocouple connector
-</text>
+
+- Allow charged LiPo to supply power to board;
+when USB power is present, the LiPo should return
+to being charged or held at standby.</text>
 <wire x1="137.16" y1="144.78" x2="132.08" y2="144.78" width="0.2032" layer="97" style="longdash"/>
 <wire x1="132.08" y1="144.78" x2="132.08" y2="124.46" width="0.2032" layer="97" style="longdash"/>
 <wire x1="132.08" y1="124.46" x2="132.08" y2="0" width="0.2032" layer="97" style="longdash"/>
